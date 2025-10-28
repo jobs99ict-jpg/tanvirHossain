@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Tanvir Hossain SEO Learning Site">
-  <meta name="keywords" content="SEO, GitHub Pages, Bangladesh, Tutorial">
-  <meta name="author" content="Tanvir Hossain">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>আমার প্রথম SEO অনুশীলন সাইট</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>স্বাগতম!</h1>
-  <p>এটা আমার প্রথম GitHub Pages ওয়েবসাইট — আমি এখানে SEO প্র্যাকটিস করবো।</p>
-  <p>আজকের কীওয়ার্ড: <strong>SEO শিখুন ফ্রি</strong></p>
+    <header>
+        <div class="logo">MyShop</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to MyShop</h1>
+        <p>Discover amazing products at great prices!</p>
+        <button id="shop-now">Shop Now</button>
+    </section>
+
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$19.99</p>
+                <button class="add-to-cart" data-product="Product 1">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$29.99</p>
+                <button class="add-to-cart" data-product="Product 2">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$39.99</p>
+                <button class="add-to-cart" data-product="Product 3">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 MyShop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
